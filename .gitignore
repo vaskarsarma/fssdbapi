@@ -1,0 +1,7 @@
+models/
+database/
+config/
+.sonarlint/
+util/
+.env
+node_modules/

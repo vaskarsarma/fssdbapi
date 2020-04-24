@@ -1,0 +1,23 @@
+{
+    "name": "flight-schdeule-service-app",
+    "version": "1.0.0",
+    "description": "This application will be used to store airline data into Cloud DB",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app",
+        "dev": "nodemon app",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Vaskar Sarma",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.3"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "csvtojson": "^2.0.10",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mysql": "^2.18.1"
+    }
+}
